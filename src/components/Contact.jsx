@@ -38,7 +38,7 @@ export const Contact = () => {
                                     className="w-full border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:border-transparent" />
                             </div>
                             <button type="submit"
-                                className="w-full bg-blue-700 text-white py-3 rounded-lg font-medium hover:bg-white hover:text-black shadow-md hover:shadow-lg transition-all duration-500 hover:scale-95">
+                                className="w-full bg-gray-700 text-white py-3 rounded-lg font-medium hover:bg-white hover:text-black shadow-md hover:shadow-lg transition-all duration-500 hover:scale-95">
                                 Send Message
                             </button>
                         </form>

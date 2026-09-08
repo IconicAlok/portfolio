@@ -32,7 +32,7 @@ export const Hero = () => {
                             data-aos-delay="400">View Project</Link>
 
                         <Link to="contact" className="px-5 py-2.5 sm:px-6 sm:py-3 bg-transparent text-gray-600 border-2 border-gray-600
-                        font-medium rounded-lg hover:bg-gray-700 hover:text-gray-400 transition duration-300 text-sm sm:text-base"
+                        font-medium rounded-lg hover:bg-gray-600 hover:text-white transition duration-300 text-sm sm:text-base"
                             data-aos="zoom-in"
                             data-aos-delay="500">Contact Me</Link>
                     </div>
