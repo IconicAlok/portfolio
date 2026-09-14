@@ -1,4 +1,4 @@
-import img1 from "../assets/img1.jpg"
+// import img1 from "../assets/img1.jpg"
 import { NavLink, useLocation } from 'react-router-dom'
 export const About = () => {
 
@@ -7,18 +7,17 @@ export const About = () => {
 
     return (
         <section id="about" className="w-full py-20 bg-white overflow-hidden scroll-smooth">
-            <div className="border-b mb-3"></div>
-            <div className="max-w-6xl mx-auto px-6">
+            <div className="max-w-6xl mx-auto px-6 py-10">
                 <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-                    <div className="md:w-1/2 md:left-20 relative z-40"
+                    {/* <div className="md:w-1/2 md:left-20 relative z-40"
                         data-aos='fade-right'
                         data-aos-delay="200">
                         <img src={img1} alt="About" className="w-155 h-130 object-cover" />
-                    </div>
+                    </div> */}
                     <div className="relative z-20 text-center md:text-left"
                         data-aos="fade-left"
                         data-aos-delay="300">
-                        <div className="border-2 border-gray-700 bg-gray-200 rounded-2xl p-8 md:p-10 shadow-2xl">
+                        <div className="border-1 border-gray-700 bg-gray-200 rounded-2xl p-8 md:p-10 shadow-1xl">
                             <h2 className="text-4xl font-bold text-gray-900 mb-6"
                                 data-aos="fade-up"
                                 data-aos-delay="400">About Me</h2>

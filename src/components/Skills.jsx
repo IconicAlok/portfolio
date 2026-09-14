@@ -53,7 +53,6 @@ export const Skills = () => {
 
         <section id="skills"
             className="w-full py-16 bg-gray-150 scroll-m-24 overflow-hidden scroll-smooth">
-            <div className='mb-3 border-b'></div>
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-12"
                     data-aos="fade-down"

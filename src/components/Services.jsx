@@ -3,13 +3,12 @@ import services from '../assets/services.jpg'
 
 export const Services = () => {
     return (
-        <section className="w-full md:px-8
-    scroll-m-24 overflow-hidden scroll-smooth border-t">
-        <div className="mb-20"></div>
+        <section className="w-full md:px-8 scroll-m-24 overflow-hidden scroll-smooth py-16">
             <div className="relative rounded-2xl overflow-hidden mb-2 mx-4"
                 data-aos="zoom-in"
                 data-aos-delay="100">
-                <img src={services} alt="Services" className="w-full h-95 md:h-105 object-cover"
+                <img src={services} alt="Services"
+                    className="w-full h-95 md:h-105 object-cover"
                     data-aos="fade-in"
                     data-aos-delay="200" />
                 <div className="absolute inset-0 flex items-center ">

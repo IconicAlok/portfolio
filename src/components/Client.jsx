@@ -29,7 +29,6 @@ export const Client = () => {
 
     return (
         <section className="w-full py-20 bg-white scroll-m-24 overflow-hidden">
-            <div className="border-b mb-3"></div>
             <div className="max-w-6xl mx-auto px-6">
 
                 {/* Header Section */}

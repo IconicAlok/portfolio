@@ -5,7 +5,6 @@ export const Contact = () => {
         <section
             id="contact"
             className="w-full py-16 bg-white overflow-hidden scroll-smooth">
-            <div className="border-b mb-3"></div>
             <div className="max-w-6xl mx-auto px-6">
                 <div
                     className="mb-10 text-center"
@@ -19,7 +18,7 @@ export const Contact = () => {
                         data-aos-delay="300">Send us a message we'll get back to you</p>
                 </div>
                 <div className="grid grid-cols-1 gap-8 items-center">
-                    <div className="bg-gray-100 p-8 rounded-xl shadow-sm">
+                    <div className="bg-gray-100 p-8 rounded-xl shadow-sm m-15">
                         <h3 className="text-xl font-bold text-gray-700 mb-3">Send Message</h3>
                         <form className="space-y-6"
                             data-aos="fade-right"
@@ -38,7 +37,7 @@ export const Contact = () => {
                                     className="w-full border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:border-transparent" />
                             </div>
                             <button type="submit"
-                                className="w-full bg-gray-700 text-white py-3 rounded-lg font-medium hover:bg-white hover:text-black shadow-md hover:shadow-lg transition-all duration-500 hover:scale-95">
+                                className="w-full bg-gray-700 text-white py-3 mx-auto rounded-lg font-medium hover:bg-white hover:text-black shadow-md hover:shadow-lg transition-all duration-500">
                                 Send Message
                             </button>
                         </form>

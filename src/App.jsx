@@ -10,7 +10,6 @@ import { WorkPage } from './pages/WorkPage'
 import { ContactPage } from './pages/ContactPage'
 import { NotFound } from './pages/NotFound'
 import { ServicePage } from './pages/ServicePage'
-import { WorkDetails } from './components/WorkDetails'
 import { ClientPage } from './pages/ClientPage'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -36,7 +35,6 @@ function App() {
                 <Route path="/works" element={<WorkPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/service" element={<ServicePage />} />
-                <Route path="/works/:id" element={<WorkDetails />} />
                 <Route path="/client" element={<ClientPage />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
