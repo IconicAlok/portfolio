@@ -18,7 +18,7 @@ export const Contact = () => {
                         data-aos-delay="300">Send us a message we'll get back to you</p>
                 </div>
                 <div className="grid grid-cols-1 gap-8 items-center">
-                    <div className="bg-gray-100 p-8 rounded-xl shadow-sm m-15">
+                    <div className="bg-gray-100 p-8 rounded-xl shadow-sm lg:mx-15">
                         <h3 className="text-xl font-bold text-gray-700 mb-3">Send Message</h3>
                         <form className="space-y-6"
                             data-aos="fade-right"
