@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export const Hero = () => {
     return (
         <section id="home"
-            className="relative min-h-screen bg-gray-100 md:flex md:items-center overflow-hidden scroll-smooth">
+            className="relative min-h-screen  md:flex md:items-center overflow-hidden scroll-smooth">
             {/* <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
         style={{backgroundImage: `url(${hero})` }}/>
         */}
