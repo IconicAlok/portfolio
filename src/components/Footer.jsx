@@ -1,20 +1,34 @@
-import { Github, Linkedin, Twitter } from "lucide-react"
+import { Github, Linkedin, Twitter, PhoneCall, Mail } from "lucide-react"
 import { Link } from "react-router-dom"
 
 
 const Footer = () => {
     return (
         <footer className="text-gray-700 pt-10">
-            <div className="max-w-6xl mx-auto px-6">
+            <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10
-            border-b border-gray-700 pb-10 mt-4">
-                    <div>
+            border-b border-gray-700 pb-3 mt-4">
+                    <div className="mb-2">
                         <h3 className="text-2xl font-bold text-gray mb-4">ALOKKURI
                             <span className="text-gray-400">.DEV</span>
                         </h3>
-                        <p className="text:sm text-gray-800 leading-relaxed">
-                            This is a portfolio website about Alok Kuri
-                        </p>
+                        <div className="gap-3">                    
+                            <p className="text:sm text-gray-800 leading-relaxed">
+                                This is a portfolio website about Alok Kuri
+                            </p>
+                            <div className="flex gap-2">
+                                <PhoneCall />
+                                <p className="text:sm text-gray-800 leading-relaxed">
+                                    Contact Me: 01795245365
+                                </p>
+                            </div>
+                            <div className="flex gap-2">
+                                <Mail />
+                                <p className="text:sm text-gray-800 leading-relaxed">
+                                    Email Me: alokkuri98@gmail.com
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div>
                         <h4 className="text-lg font-semibold text-gray-700 mb-4">

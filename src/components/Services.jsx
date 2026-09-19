@@ -1,9 +1,11 @@
 import { ArrowRight } from 'lucide-react'
+import { NavLink, useNavigate } from 'react-router-dom'
 import services from '../assets/services.jpg'
 
 export const Services = () => {
+    const navigate = useNavigate();
     return (
-        <section className="w-full md:px-8 scroll-m-24 overflow-hidden scroll-smooth py-16">
+        <section className="w-full md:px-8 scroll-m-24 overflow-hidden scroll-smooth py-20">
             <div className="relative rounded-2xl overflow-hidden mb-2 mx-4"
                 data-aos="zoom-in"
                 data-aos-delay="100">
@@ -24,7 +26,7 @@ export const Services = () => {
                             consectetur adipisicing elit.
                             Officiis, ipsa.
                         </p>
-                        <button className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-6 py-2 
+                        <button onClick={() => navigate('/contact')} className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-6 py-2 
                     text-sm font-semibold text-black hover:bg-gray-100 transition-colors"
                             data-aos="zoom-in"
                             data-aos-delay="500">

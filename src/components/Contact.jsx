@@ -86,7 +86,7 @@ export const Contact = () => {
                             <div>
                                 <label htmlFor="email" className='block text-sm font-medium mb-2'>Email</label>
                                 <input type="email"
-                                    required placeholder="Your Email"
+                                    required placeholder="your@email.com"
                                     id="email"
                                     name="email"
                                     value={formData.email}
@@ -101,7 +101,7 @@ export const Contact = () => {
                                     value={formData.message}
                                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                                     rows={5}
-                                    className="w-full p-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent" />
+                                    className="w-full p-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent resize-none" />
                             </div>
                             <button type="submit"
                                 disabled={isLoading}
