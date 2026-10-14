@@ -6,6 +6,9 @@ import mongodbImg from '../assets/mongodb.png'
 import expressImg from '../assets/express.png'
 import restapiImg from '../assets/rest-api.svg'
 import mysqlImg from '../assets/mysql.png'
+import nodeJsImg from '../assets/Node.js.png'
+import phpImg from '../assets/php.png'
+import gitImg from '../assets/git.png'
 export const Skills = () => {
     const skills = [
         {
@@ -24,6 +27,11 @@ export const Skills = () => {
             desc: 'Lorem ipsum dolor sit amet.'
         },
         {
+            name: 'PHP',
+            img: phpImg,
+            desc: 'Lorem ipsum dolor sit amet.'
+        },
+        {
             name: 'Tailwind CSS',
             img: tailwindImg,
             desc: 'Lorem ipsum dolor sit amet.'
@@ -34,6 +42,11 @@ export const Skills = () => {
             desc: 'Lorem ipsum dolor sit amet.'
         },
         {
+            name: 'Node Js',
+            img: nodeJsImg,
+            desc: 'Lorem ipsum dolor sit amet.'
+        },
+        {
             name: 'MySQL',
             img: mysqlImg,
             desc: 'Lorem ipsum dolor sit amet.'
@@ -41,6 +54,11 @@ export const Skills = () => {
         {
             name: 'Express Js',
             img: expressImg,
+            desc: 'Lorem ipsum dolor sit amet.'
+        },
+        {
+            name: 'Git',
+            img: gitImg,
             desc: 'Lorem ipsum dolor sit amet.'
         },
         {
@@ -64,11 +82,11 @@ export const Skills = () => {
                         data-aos="fade-up"
                         data-aos-delay="300">Technologies I specialize in</p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto">
                     {skills.map((skill, index) => (
                         <div key={index}
                             className="bg-gray-200 border border-gray-700 rounded-xl p-6 text-center
-            hover:border-indigo-800 transition-all duration-300 transform hover:-translate-y-0.5"
+                                        hover:border-indigo-800 transition-all duration-300 transform hover:-translate-y-0.5"
                             data-aos="zoom-in"
                             data-aos-delay={200 + (index * 100)}>
                             <div className="flex justify-center mb-4">
