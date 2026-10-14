@@ -8,7 +8,6 @@ import restapiImg from '../assets/rest-api.svg'
 import mysqlImg from '../assets/mysql.png'
 import nodeJsImg from '../assets/Node.js.png'
 import phpImg from '../assets/php.png'
-import gitImg from '../assets/git.png'
 export const Skills = () => {
     const skills = [
         {
@@ -54,11 +53,6 @@ export const Skills = () => {
         {
             name: 'Express Js',
             img: expressImg,
-            desc: 'Lorem ipsum dolor sit amet.'
-        },
-        {
-            name: 'Git',
-            img: gitImg,
             desc: 'Lorem ipsum dolor sit amet.'
         },
         {
